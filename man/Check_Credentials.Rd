@@ -9,10 +9,10 @@ by issuing a request to the \code{/sites} endpoint and interpreting the HTTP
 status code.
 }
 \usage{
-Check_Credentials(Handle = "")
+Check_Credentials(handle = "")
 }
 \arguments{
-  \item{Handle}{
+  \item{handle}{
 A \code{curl_handle} object created with \code{Handle_Generator()}.
 }
 }

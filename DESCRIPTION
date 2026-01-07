@@ -1,0 +1,27 @@
+Package: AquaWatch
+Type: Package
+Title: Client for the AquaWatch Water Quality Monitoring API
+Version: 0.1.0
+Authors@R: 
+    person(
+      given = "James",
+      family = "Dare",
+      role = c("aut", "cre"),
+      email = "james.d@aquawatchsolutions.com",
+      comment = c(ORCID = "0000-0002-2034-8421")
+    )
+Description: 
+    Provides an R interface to the AquaWatch API for accessing water quality
+    monitoring data from AquaWatch devices. The package supports
+    authenticated requests, site discovery, and retrieval of time-filtered
+    sample data using device Extended Unique Identifiers (EUIs). It is designed
+    for reproducible environmental data analysis and integration into R-based
+    workflows.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    curl,
+    jsonlite
+Roxygen: list(markdown = true)
+RoxygenNote: 7.3.2
